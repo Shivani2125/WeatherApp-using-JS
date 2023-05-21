@@ -1,0 +1,31 @@
+
+.Container1
+{
+    display: flex;
+    margin-top: 40px;
+    width: auto;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    
+}
+.box{
+    margin: 4px 6px;
+}
+/* body{
+   
+    background-image: Url('cold.jpg');
+   
+  } */
+  .Heading-top{
+    /* background-color: rgb(179, 176, 204); */
+    height: 40px;
+  }
+  .show-data{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #Getcity{
+    width: 40%;
+  }
