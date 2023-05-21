@@ -7,12 +7,6 @@ const options = {
 	}
 };
 
-// async function f(){
-// 	const response = await fetch(url, options);
-// 	const result = await response.text();
-// 	console.log(result);
-// } 
-// f();
 const getweather =(city) =>{
 	cityname.innerHTML = city;
 fetch(url+ city, options)
@@ -26,7 +20,6 @@ fetch(url+ city, options)
 		else{
 			document.body.style.backgroundImage = "url('hot1.jpg')";
 		}
-		// cloud_pct.innerHTML = response.cloud_pct
 		temp.innerHTML = response.temp
 		temp1.innerHTML = response.temp
 		feels_like.innerHTML = response.feels_like
